@@ -21,6 +21,7 @@ public class LoginActivity : AppCompatActivity() {
             insets
         }
 
+
         backToMainBtn = findViewById(R.id.loginBackToMainBtn)
 
 
