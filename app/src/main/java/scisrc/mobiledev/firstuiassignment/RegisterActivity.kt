@@ -1,5 +1,7 @@
 package scisrc.mobiledev.firstuiassignment;
 
+import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -10,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 public class RegisterActivity : AppCompatActivity() {
 
     lateinit var backToMainPageBtn: Button
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,8 +26,11 @@ public class RegisterActivity : AppCompatActivity() {
 
         backToMainPageBtn = findViewById(R.id.registBackToMainBtn)
 
+
         backToMainPageBtn.setOnClickListener() {
             finish()
         }
+
+
     }
 }
