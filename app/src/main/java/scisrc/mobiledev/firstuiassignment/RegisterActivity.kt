@@ -1,4 +1,4 @@
-package scisrc.mobiledev.firstuiassignment
+package scisrc.mobiledev.firstuiassignment;
 
 import android.os.Bundle
 import android.widget.Button
@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class RegisterActivity : AppCompatActivity() {
+public class RegisterActivity : AppCompatActivity() {
 
     lateinit var backToMainPageBtn: Button
 

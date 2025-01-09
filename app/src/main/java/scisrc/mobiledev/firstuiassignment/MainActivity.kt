@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+public class MainActivity : AppCompatActivity() {
 
     private lateinit var loginBtn: Button
     private lateinit var regisBtn: Button
